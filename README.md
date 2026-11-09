@@ -933,14 +933,13 @@ Pengujian dilakukan pada Latihan 7, Mini Project, dan Eksperimen 4. Untuk menguj
 
 | No | Halaman | Input | Jenis | Hasil |
 |---|---|---|---|---|
-| 1 | Latihan 7 | Pensil, harga 2500, jumlah 4 | Valid | Subtotal Rp10.000,00 |
-| 2 | Latihan 7 | Buku, harga 1500,50, jumlah 3 | Valid | Subtotal Rp4.501,50 |
-| 3 | Latihan 7 | Pensil, harga 2500, jumlah 0 | Tidak valid | Muncul pesan "Periksa kembali nama barang, harga, dan jumlah." |
-| 4 | Latihan 7 | Nama barang berisi spasi saja | Tidak valid | Muncul pesan error yang sama karena nama kosong setelah `trim()` |
-| 5 | Mini Project | Rafa Muhammad Fauzan, 312510277, Teknik Informatika, semester 4, email `mahasiswa@example.com` | Valid | Ringkasan data mahasiswa tampil |
-| 6 | Mini Project | NIM `31251AB`, semester 15, email `rafa` | Tidak valid | Tampil tiga pesan: format email tidak valid, semester harus 1–14, dan NIM harus 9 digit angka |
-| 7 | Eksperimen 4 | NIM `312510277` | Valid | Kotak hijau "NIM valid" |
-| 8 | Eksperimen 4 | NIM `12345` | Tidak valid | Kotak merah: NIM harus tepat 9 digit (memasukkan 5 digit) |
+| 1 | Latihan 7 | Susu, harga 12500, jumlah 3 | Valid | Subtotal Rp37.500,00 |
+| 2 | Latihan 7 | Susu, harga 12500, jumlah 0 | Tidak valid | Muncul pesan "Periksa kembali nama barang, harga, dan jumlah." |
+| 3| Latihan 7 | Nama barang berisi spasi saja | Tidak valid | Muncul pesan error yang sama karena nama kosong setelah `trim()` |
+| 4 | Mini Project | Rafa Muhammad Fauzan, 312510277, Teknik Informatika, semester 3, email `rafamuhammadm@gmail.com` | Valid | Ringkasan data mahasiswa tampil |
+| 5 | Mini Project | Rafa Muhammad Fauzan, 312510277, Teknik Informatika, semester 3, email `rafa` | Tidak valid | Format email tidak valid |
+| 6 | Eksperimen 4 | NIM `312510277` | Valid | Kotak hijau "NIM valid" |
+| 7 | Eksperimen 4 | NIM `3121510277` | Tidak valid | Kotak merah: NIM harus tepat 9 digit (memasukkan 10 digit) |
 
 ---
 
